@@ -2,8 +2,8 @@ var i=0,k=0;
 $(document).ready(function(){
   var interval = setInterval(imageSlides, 3000); 
 
-$('#rightButton').click(previousSlide);
-$('#leftButton').click(nextSlide);
+$('#rightButton').click(nextSlide);
+$('#leftButton').click(previousSlide);
 
 
 $('#icon1,#icon2,#icon3').click(function(){
