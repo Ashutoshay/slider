@@ -1,0 +1,185 @@
+
+body{
+	font-family: ubuntu !important;
+	
+}
+.logo{
+	font-size: 3.1rem;
+	margin-left: 3.1rem;
+	color: #FF1493 !important;
+	font-family: serif;
+}
+.logobtn{
+	border-radius: 1.6rem;
+	width: 7.1rem;
+	background-color: white;
+	color: #FF1493;
+	padding: .4rem;
+	margin-right: 2rem;
+}
+.logobtn:hover{
+	background-color: inherit;
+	color: black;
+	border:2px solid white;
+}
+/*.font{
+	font-size: 1.4rem;
+	font-family: serif;
+}*/
+.banner{
+	background-image: linear-gradient(to bottom, #F141A645,#ff135d90),url('8.jpeg');
+	width: 98%! important;
+	height:auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	padding-top: 9.5rem;
+	padding-bottom: 3rem;
+	color: white;
+	font-weight: 200 !important;
+
+	
+}
+#slider {
+  white-space: nowrap; 
+  overflow: hidden;
+  position: relative;
+}
+#slider #images img{
+height: 400px;
+width: 100%;
+}
+
+.buttona {
+  width: 5%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 50px;
+  color: white;
+}
+#rightButton{
+  right: 2%;
+}
+#leftButton{
+  left: 2%;
+}
+.circles{
+  position: absolute;
+  bottom: 20px;
+  left: 45%;
+  transform: translateX(-45%);
+ 
+}
+.circles i{
+ position: relative;
+ margin-left: 5px;
+ cursor: pointer;
+ color: transparent;
+ border: 1px solid gray;
+ border-radius: 50%;
+}
+/*Media query for responsive*/
+
+@media (max-device-width: 1024px) {
+  .buttona {
+    width: 10%;
+  }
+}
+
+@media (max-width: 768px) {
+  .buttona {
+    width: 10%;
+  }
+}
+
+.aboutpara{
+	padding: 2rem;
+	width: 98% !important;
+	
+
+}
+.top{
+	position: relative;
+}
+.aboutimage{
+	border-radius: 4rem 11rem 11rem 4rem;
+	width: 18rem;
+	height: 15rem;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50% , -50%);
+	
+}
+.bord{
+	border-radius: 4rem 11rem 11rem 4rem;
+	width: 17rem;
+	height: 14rem;
+	position: absolute;
+	border:5px solid red;
+	left: 55%;
+	top: 40%;
+	transform: translate(-50% , -50%);
+
+
+	
+}
+.formimage{
+	background-image: url('13.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+	width: 100%;
+	position: relative;
+}
+.line{
+
+	/*background-image: linear-gradient(90deg ,#706866 13% , #DEDCDB 77%, #170906 100%, #515454 100%, #060D0B 255%);*/
+	background-color: #1E1D1C;
+	position: relative;
+}
+.btn1{
+	margin-left: 7rem;
+	background-color: white; 
+
+	display: inline-block; 
+	margin-top: 1rem;
+	border-radius: 1.6rem;
+}
+.formm{
+	background-color: black;
+	opacity: 0.6;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	color:white;
+	font-weight: bold;
+}
+ /*.feature{
+	height: 12.4rem;
+	margin-top: 9.5rem;
+}*/
+/*.featurediv1{
+	height: 300px;
+	width: 25%;
+	float: left;
+	margin: 50px;
+}*/
+
+@media screen and (max-width: 1000px)
+{
+	.aboutcenter{
+		text-align: center;
+	}
+	.top{
+		margin-top: 11rem;
+	}
+	.aboutimage{
+		margin-top: 3.5rem;
+	}
+	.edu{
+		margin-top: 8.5rem;
+	}
+}
+
