@@ -1,6 +1,7 @@
 
 body{
 	font-family: ubuntu !important;
+	overflow-x: hidden;
 	
 }
 .logo{
